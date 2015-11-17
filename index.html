@@ -9,13 +9,24 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Heroic Features - Start Bootstrap Template</title>
+    <title>Susan "Tracy" Parker | Web Development and Design</title>
 
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lobster|Changa+One|Open+Sans:400,700,400italic,700italic,800' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/heroic-features.css" rel="stylesheet">
+
+    <!-- MY Custom CSS -->
+    <link rel="stylesheet" href="css/mystylesheet.css">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,19 +50,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="#">Susan "Tracy" Parker<i class="fa fa-rebel fa-lg"></i></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="#" id="selected">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="resume.html">Resume</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -64,21 +78,20 @@
     <div class="container">
 
         <!-- Jumbotron Header -->
-        <header class="jumbotron hero-spacer">
-            <h1>A Warm Welcome!</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-            <p><a class="btn btn-primary btn-large">Call to action!</a>
-            </p>
+        <header id="index-header" class="jumbotron hero-spacer">
+            <h1>My Work <i id="cogs" class="fa fa-cogs fa-fw"></i></h1>
+            <p>Welcome to my web design portfolio! A chronicle of my coding journey. My sites are currently a mix of student projects and personal ones. Some of what you will see is still under construction. I like to update my work as my coding knowledge grows.</p>
+            <a href="https://github.com/tracyparker" class="btn btn-primary btn-large">My Github!<i id="fa-git" class="fa fa-github fa-2x"></i></a> <a href="https://www.linkedin.com/in/stpwebdev" class="btn btn-primary btn-large">My LinkedIn!<i id="fa-linked" class="fa fa-linkedin fa-2x"></i></a> <a href="http://teamtreehouse.com/susanparker"class="btn btn-primary btn-large">My Treehouse!<i id="fa-term" class="fa fa-terminal fa-2x"></i></a>
         </header>
 
         <hr>
 
         <!-- Title -->
-        <div class="row">
+        <!--<div class="row">
             <div class="col-lg-12">
                 <h3>Latest Features</h3>
             </div>
-        </div>
+        </div>-->
         <!-- /.row -->
 
         <!-- Page Features -->
@@ -86,12 +99,12 @@
 
             <div class="col-md-3 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
+                    <img src="img/PortWithLightbox.png" alt=""> 
                     <div class="caption">
-                        <h3>Feature Label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <h3><a href="http://tracyparker.github.io/PortfolioWithLightbox">Lightbox</a></h3>
+                        <p>An early version of an artist's portfolio for myself that uses a lightbox effect.</p>
                         <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                            <a href="http://tracyparker.github.io/PortfolioWithLightbox" class="btn btn-primary">Live View</a> <!--<a href="#" class="btn btn-default">More Info</a>-->
                         </p>
                     </div>
                 </div>
@@ -99,12 +112,12 @@
 
             <div class="col-md-3 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
+                    <img src="img/site-revision.png" alt="">
                     <div class="caption">
-                        <h3>Feature Label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <h3><a href="http://tracyparker.github.io">My Art Site</a></h3>
+                        <p>My current artist's portfolio site. Photography, ceramics, and fractal art.</p>
                         <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                            <a href="http://tracyparker.github.io" class="btn btn-primary">Live View</a> <!--<a href="#" class="btn btn-default">More Info</a>-->
                         </p>
                     </div>
                 </div>
@@ -112,12 +125,12 @@
 
             <div class="col-md-3 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
+                    <img src="img/SuffrageQuestion.png" alt="">
                     <div class="caption">
-                        <h3>Feature Label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <h3><a href="http://tracyparker.github.io/SuffrageQuestion">Suffrage Reveal</a></h3>
+                        <p>Use of JavaScript to ask question then reveal answer after being clicked.</p>
                         <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                            <a href="http://tracyparker.github.io/SuffrageQuestion" class="btn btn-primary">Live View</a> <!--<a href="#" class="btn btn-default">More Info</a>-->
                         </p>
                     </div>
                 </div>
@@ -125,12 +138,58 @@
 
             <div class="col-md-3 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
+                    <img src="img/DrawingApp.png" alt="">
                     <div class="caption">
-                        <h3>Feature Label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <h3><a href="http://tracyparker.github.io/SimpleDrawingApp/">Drawing Fun</a></h3>
+                        <p>Use of JavaScript to create a drawing pad. Can creat custom colors.</p>
                         <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                            <a href="http://tracyparker.github.io/SimpleDrawingApp/" class="btn btn-primary">Live View</a> <!--<a href="#" class="btn btn-default">More Info</a>-->
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <div class="row text-center">
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="img/ParkTech_Careers_2.0.jpg" alt=""> 
+                    <div class="caption">
+                        <h3><a href="http://tracyparker.github.io/ParkTechCareers/">ParkTech Apply</a></h3>
+                        <p>Job application page for ParkTech. ParkTech is a mock company specializing in assistive/universal access tech and mods.</p>
+                        <p>
+                            <a href="http://tracyparker.github.io/ParkTechCareers/" class="btn btn-primary">Live View</a> <!--<a href="#" class="btn btn-default">More Info</a>-->
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="img/ElasticStack-WhiteFlowers.jpg" alt="">
+                    <div class="caption">
+                        <h3><a href="http://tracyparker.github.io/ElasticStack-WhiteFlowers/">White Flowers</a></h3>
+                        <p>Use of JavaScript to create an elastic effect when photos are clicked and dragged. All photos are my work.</p>
+                        <p>
+                            <a href="http://tracyparker.github.io/ElasticStack-WhiteFlowers/" class="btn btn-primary">Live View</a> <!--<a href="#" class="btn btn-default">More Info</a>-->
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="img/star_wars_pulp_fiction.jpg" alt="">
+                    <div class="caption">
+                        <h3><a href="http://tracyparker.github.io/I_Went_To/">Mad Lib</a></h3>
+                        <p>Use of JavaScript for gathering user input via alert boxes. Star Wars and Pulp Fiction mash up.</p>
+                        <p>
+                            <a href="http://tracyparker.github.io/I_Went_To/" class="btn btn-primary">Live View</a> <!--<a href="#" class="btn btn-default">More Info</a>-->
                         </p>
                     </div>
                 </div>
@@ -145,7 +204,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <center><p class="copyright-index">Copyright &copy; Susan "Tracy" Parker 2015</p></center>
                 </div>
             </div>
         </footer>
