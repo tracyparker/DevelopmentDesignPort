@@ -29,6 +29,10 @@ INDEX / Top Nav
     text-shadow: 0 0 10px gold, 0 0 15px white;
 } 
 
+#rebel-con {
+	margin-left: 0px;
+}
+
 body { 
     background: url(../img/tuberland_aqua2.jpg);
     background-attachment: fixed;
@@ -40,8 +44,8 @@ header h1 {
 }
 
 header {
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 4%;
+	padding-right: 4%;
 	box-shadow: 0 0 3px red, 0 0 5px GoldenRod, 0 0 10px gold, 0 0 15px white;
 }
 
@@ -166,10 +170,13 @@ img {
 	text-shadow: 0 0 2px red, 0 0 5px GoldenRod, 0 0 10px gold, 0 0 15px white;
 }
 
-.email {
-	font-family: sans-serif;
-}
 
+#email{
+	font-family: "verdana";
+	font-weight: bold;	
+	text-shadow: 0 0 2px red, 0 0 5px GoldenRod, 0 0 10px gold, 0 0 15px white;
+	line-height: 40px;
+}
 
 /*********************************************************
   FOOTER
